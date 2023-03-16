@@ -1,0 +1,163 @@
+body {
+   font-family: "Roboto", sans-serif;
+}
+
+.list{
+   list-style: none;
+} 
+
+.link{
+   text-decoration: none;
+}
+
+.header {
+
+}
+.header-navigation {
+
+}
+.header-logo {
+
+}
+.header-list {
+
+}
+.header-item {
+
+}
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.header-link:is(hover, :focus) {
+    color: #404BBF;
+}
+.header-contacts {
+
+}
+.header-email {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-style: normal;
+}
+.header-phone {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-style: normal;
+}
+
+
+.solutions {
+    background-color: #2E2F42;
+}
+.solutions-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.solutions-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+
+
+.principles {
+}
+
+.principles-list {
+}
+
+.principles-item {
+}
+
+.principles-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.principles-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+.job {
+}
+
+.job-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.job-list {
+}
+.list {
+}
+.job-item {
+}
+
+
+.team {
+}
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.team-list {
+}
+.list {
+}
+.team-item {
+}
+.team-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+.footer {
+}
+.footer-logo {
+}
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
