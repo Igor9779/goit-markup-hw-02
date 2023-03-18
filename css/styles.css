@@ -51,7 +51,10 @@ background-color: #ffffff;
     letter-spacing: 0.02em;
     color: var(--title-color);
 }
-.header-link:hover,
+
+.header-link:hover {
+    color: #404BBF;
+}
 .header-link:focus {
     color: #404BBF;
 }
@@ -68,6 +71,13 @@ font-style: normal;
     color: var(--text-color);
     font-style: normal;
 }
+.header-email:hover {
+    color: #404BBF;
+}
+.header-email:focus {
+    color: #404BBF;
+}
+
 .header-phone {
     font-size: 16px;
     line-height: 1.5;
@@ -75,7 +85,12 @@ font-style: normal;
     color: var(--text-color);
     font-style: normal;
 }
-
+.header-phone:hover {
+    color: #404BBF;
+}
+.header-phone:focus {
+    color: #404BBF;
+}
 
 .solutions {
     background-color: var(--title-color);
@@ -170,11 +185,11 @@ font-style: normal;
 }
 
 .team-list {
-    background-color: #ffffff;
 }
 .list {
 }
 .team-item {
+    background-color: #ffffff;
 }
 
 .team-subtitle {
