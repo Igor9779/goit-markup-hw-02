@@ -112,3 +112,33 @@ background-color: #F4F4FD;
     color: #ffffff;
     background-color: #404BBF;
 }
+
+
+
+
+.footer {
+    background-color: var(--title-color);
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.footer-link{
+    
+}
+.footer-span {
+    color: #F4F4FD;
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;;
+}
