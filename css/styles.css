@@ -1,5 +1,12 @@
+:root{
+    --title-color: #2E2F42;
+    --text-color: #434455;
+}
+
 body {
    font-family: "Roboto", sans-serif;
+   color: var(--text-color);
+   background-color: #ffffff;
 }
 
 .list{
@@ -11,7 +18,7 @@ body {
 }
 
 .header {
-
+background-color: #ffffff;
 }
 .header-navigation {
 
@@ -25,12 +32,13 @@ body {
 .header-item {
 
 }
+
 .header-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--title-color);
 }
 .header-link:is(hover, :focus) {
     color: #404BBF;
@@ -42,42 +50,44 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-color);
     font-style: normal;
 }
 .header-phone {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-color);
     font-style: normal;
 }
 
 
 .solutions {
-    background-color: #2E2F42;
+    background-color: var(--title-color);
 }
 .solutions-title {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    text-align: center;
+    color: #ffffff;
 }
 .solutions-btn {
-    font-family: 'Roboto';
+    font-family: inherit;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
     background-color: #4D5AE5;
     cursor: pointer;
 }
 
 
 .principles {
+    background-color: #ffffff;
 }
 
 .principles-list {
@@ -91,25 +101,27 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--title-color);
 }
 
 .principles-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-color);
 }
 
 
 .job {
+    background-color: #ffffff;
 }
 
 .job-title {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    text-align: center;
+    color: var(--title-color);
 }
 
 .job-list {
@@ -121,12 +133,15 @@ body {
 
 
 .team {
+    background-color: #ffffff;
 }
+
 .team-title {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    text-align: center;
+    color: var(--title-color);
 }
 
 .team-list {
@@ -135,29 +150,34 @@ body {
 }
 .team-item {
 }
+
 .team-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--title-color);
 }
 
 .team-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-color);
 }
 
 
 .footer {
+    background-color: var(--title-color);
 }
+
 .footer-logo {
+
 }
+
 .footer-text {
     font-size: 16px;
-    line-height: 1.5px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #F4F4FD;;
 }
