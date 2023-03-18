@@ -59,38 +59,30 @@ background-color: #ffffff;
     color: #404BBF;
 }
 
+.header-adress {
+
+}
 
 .header-contacts {
 font-style: normal;
 }
 
-.header-email {
+.header-contact {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color);
     font-style: normal;
 }
-.header-email:hover {
+.header-contact:hover {
     color: #404BBF;
 }
-.header-email:focus {
+.header-contact:focus {
     color: #404BBF;
 }
 
-.header-phone {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--text-color);
-    font-style: normal;
-}
-.header-phone:hover {
-    color: #404BBF;
-}
-.header-phone:focus {
-    color: #404BBF;
-}
+
+
 
 .solutions {
     background-color: var(--title-color);
