@@ -88,6 +88,7 @@ font-style: normal;
     text-align: center;
     color: #ffffff;
 }
+
 .solutions-btn {
     font-family: inherit;
     font-style: normal;
@@ -99,6 +100,13 @@ font-style: normal;
     color: #ffffff;
     background-color: #4D5AE5;
     cursor: pointer;
+}
+
+.solutions-btn:hover{
+    background-color: #404BBF;
+}
+.solutions-btn:focus{
+    background-color: #404BBF;
 }
 
 
@@ -149,7 +157,7 @@ font-style: normal;
 
 
 .team {
-    background-color: #ffffff;
+    background-color: #F4F4FD;
 }
 
 .team-title {
@@ -157,6 +165,7 @@ font-style: normal;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: var(--title-color);
 }
 
@@ -172,6 +181,7 @@ font-style: normal;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: var(--title-color);
 }
 
