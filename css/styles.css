@@ -51,12 +51,11 @@ background-color: #ffffff;
     letter-spacing: 0.02em;
     color: var(--title-color);
 }
-.header-link:hover{
+.header-link:hover,
+.header-link:focus {
     color: #404BBF;
 }
-.header-link:focus{
-    color: #404BBF;
-}
+
 
 .header-contacts {
 font-style: normal;
@@ -145,6 +144,7 @@ font-style: normal;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: var(--title-color);
 }
 
@@ -170,6 +170,7 @@ font-style: normal;
 }
 
 .team-list {
+    background-color: #ffffff;
 }
 .list {
 }
@@ -205,9 +206,10 @@ font-style: normal;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    text-decoration: none;
 }
-
+.footer-link{
+    
+}
 .footer-span {
     color: #F4F4FD;
 }
