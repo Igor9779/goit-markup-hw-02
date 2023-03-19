@@ -4,9 +4,9 @@
 }
 
 body {
-   font-family: "Roboto", sans-serif;
-   color: var(--text-color);
-   background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    color: var(--text-color);
+    background-color: #FFFFFF;
 }
 
 .list{
@@ -18,7 +18,7 @@ body {
 }
 
 .header {
-background-color: #ffffff;
+background-color: #FFFFFF;
 }
 .header-navigation {
 
@@ -30,7 +30,7 @@ background-color: #ffffff;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: #4D5AE5;
 }
 
 .header-span {
@@ -76,7 +76,7 @@ font-style: normal;
 }
 
 .header-contact:hover {
-    color: #404bbf;
+    color: #404BBF;
 }
 
 .header-contact:focus {
