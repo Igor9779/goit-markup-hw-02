@@ -60,11 +60,9 @@ background-color: #ffffff;
 }
 
 .header-adress {
-font-style: normal;
 }
 
 .header-contacts {
-font-style: normal;
 }
 
 .header-contact {
@@ -226,4 +224,58 @@ font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;;
+}
+
+
+.portfolio {
+}
+.portfolio-title {
+}
+.portfolio-list {
+}
+
+.portfolio-item {
+}
+
+.portfolio-btn {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    cursor: pointer;
+    background-color: #F4F4FD;
+}
+.portfolio-btn:hover{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+.portfolio-btn:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.portfolio-list-photo {
+}
+.list {
+    list-style: none;
+}
+.portfolio-item-photo {
+}
+.portfolio-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+
+.portfolio-text-photo {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
 }
