@@ -7,7 +7,7 @@ body {
    font-family: "Roboto", sans-serif;
    color: var(--text-color);
    background-color: #ffffff;
-   font-style: normal;
+   
 }
 
 .list{
@@ -61,6 +61,7 @@ background-color: #ffffff;
 }
 
 .header-adress {
+    font-style: normal;
 }
 
 .header-contacts {
