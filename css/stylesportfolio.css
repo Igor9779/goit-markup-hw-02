@@ -107,13 +107,13 @@ font-style: normal;
     cursor: pointer;
     background-color: #F4F4FD;
 }
-.Portfolio-btn:hover{
-    color: #ffffff;
-    background-color: #404bbf;
+.portfolio-btn:hover{
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
-.Portfolio-btn:focus{
-    color: #ffffff;
-    background-color: #404bbf;
+.portfolio-btn:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
 
 
